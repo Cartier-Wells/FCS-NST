@@ -14,7 +14,7 @@ h5,
 .h5,
 h6,
 .h6 {
-    font-family: 'Quicksand';
+    font-family: 'Arial';
     color: #000000;
     font-weight: 400;
     line-height: 1.2em;
@@ -40,7 +40,7 @@ h1,
     font-size: 45px;
     padding-left: 150px;
     margin-top: 50px;
-    font-family: 'Quicksand';
+    font-family: 'Arial';
 }
 
 h2,
@@ -95,7 +95,7 @@ body {
 
 p {
     font-size: 18px;
-    font-family: 'Quicksand';
+    font-family: 'Arial';
     margin-left: 100px;
     width: 700px;
     overflow-wrap: normal;
@@ -111,27 +111,27 @@ p {
     padding: 5px;
     margin-left: 200px;
     font-size: 16px;
-    font-family: 'Quicksand'
+    font-family: 'Arial'
 }
 
 .links {
     padding: 5px;
     margin-left: 200px;
     font-size: 16px;
-    font-family: 'Quicksand'
+    font-family: 'Arial'
 
 }
 
 a {
     font-size: 16px;
     color: #800000;
-    font-family: 'Quicksand'
+    font-family: 'A'
 }
 
 b {
     font-size: 32px;
     color: #000000;
-    font-family: 'Quicksand'
+    font-family: 'Arial'
 }
 
 /* Header/Logo */
@@ -153,7 +153,7 @@ b {
     text-transform: uppercase;
     padding-bottom: 30px;
     line-height: 35px;
-    font-family: 'Quicksand';
+    font-family: 'Arial';
     margin-left: 225px;
     position: absolute;
 
