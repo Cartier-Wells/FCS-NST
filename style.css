@@ -1,0 +1,221 @@
+/* Evan Carter
+CSS code for my website at Cartier-Wells.github.io */
+
+/* Text & Headings */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: 'Quicksand';
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+h1 > a,
+.h1 > a,
+h2 > a,
+.h2 > a,
+h3 > a,
+.h3 > a,
+h4 > a,
+.h4 > a,
+h5 > a,
+.h5 > a,
+h6 > a,
+.h6 > a {}
+
+h1,
+.h1 {
+    font-size: 45px;
+    padding-left: 150px;
+    margin-top: 50px;
+    font-family: 'Quicksand';
+}
+
+h2,
+.h2 {
+    font-size: 50px;
+    padding-left: 150px;
+    margin-top: 100px;
+}
+
+h3,
+.h3 {
+    font-size: 26px;
+}
+
+h4,
+.h4 {
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+h5,
+.h5 {
+    font-size: 35px;
+    padding-left: 220px;
+    margin-top: 150px;
+}
+
+h6,
+.h6 {
+    font-size: 14px;
+}
+
+a {
+    color: #ababab;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 50px 0 0;
+    font-family: 'Lato', serif;
+    font-size: 14px;
+    overflow-x: hidden;
+    line-height: 24px;
+    word-spacing: 1px;
+    background: url("/images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Quicksand';
+    margin-left: 100px;
+    width: 700px;
+    overflow-wrap: normal;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.contact {
+    padding: 5px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: 'Quicksand'
+}
+
+.links {
+    padding: 5px;
+    margin-left: 200px;
+    font-size: 16px;
+    font-family: 'Quicksand'
+
+}
+
+a {
+    font-size: 16px;
+    color: #800000;
+    font-family: 'Quicksand'
+}
+
+b {
+    font-size: 32px;
+    color: #000000;
+    font-family: 'Quicksand'
+}
+
+/* Header/Logo */
+.header {
+    width: 220px;
+    bottom: 0;
+    top: 0;
+    text-align: right;
+    z-index: 9;
+}
+
+.header-text {
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-size: 40px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    line-height: 35px;
+    font-family: 'Quicksand';
+    margin-left: 225px;
+    position: absolute;
+
+}
+
+.logo a {
+    color: inherit;
+}
+
+/* Projects */
+.projects {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.project-item {
+    position: relative;
+    margin-bottom: 40px;
+    margin-left: 150px;
+}
+
+.project-item:last-child {
+    margin-bottom: 10;
+}
+
+.project-item .title {
+    position:
+        opacity: 0;
+    visibility: hidden;
+}
+
+.project-item .title a {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1;
+    letter-spacing: 1px;
+}
+
+.project-item .title a:hover {
+    color: #ffffff !important;
+    opacity: 0.7;
+}
+
+.project-item:hover .title {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+canvas {}
+
+svg {
+    position: absolute;
+    z-index: -1;
+}
