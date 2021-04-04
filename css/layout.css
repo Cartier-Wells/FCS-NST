@@ -295,14 +295,12 @@ select {
 
 #header nav ul {
     padding: 0 20px;
-    font-family: Arial;
 }
 
 #header nav li {
     display: inline;
     margin-right: 25px;
     text-transform: uppercase;
-    font-family: Arial;
 }
 
 #header nav li.last {
@@ -312,7 +310,6 @@ select {
 #header nav li a {
     color: #C0BAB6;
     background-color: #232323;
-    font-family: Arial;
 }
 
 #header nav li a:hover {
